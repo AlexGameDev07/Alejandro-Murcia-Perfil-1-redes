@@ -144,8 +144,9 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-10 mt-5 py-5 pr-lg-5">
-
+                    
                     <h1 class="mb-4 section-title text-primary">Cableado horizontal</h1>
+                    <img class="img-fluid w-50 float-right mr-20 mb-3" src="img/Cableado Horizontal.jpeg" alt="Image">
                     <p class="mb-4 text-light">La <em>norma EIA/TIA 568A </em> define el cableado horizontal de la
                         siguiente
                         forma:
@@ -156,10 +157,13 @@
                         viceversa."</blockquote>
 
                     </p>
+                    
                     <p class="text-light">
                         <b>El cableado horizontal consiste de dos elementos básicos:</b>
                         <br>
+                        
                     <ul class="text-light">
+                        
                         <li>Cable Horizontal y Hardware de Conexión (también llamado "cableado horizontal") que
                             proporcionan los medios básicos para transportar señales de telecomunicaciones entre el área
                             de trabajo y el cuarto de telecomunicaciones.</li>
@@ -207,15 +211,37 @@
                 <div class="col-lg-10 mt-5 py-5 pr-lg-5">
 
                     <h1 class="mb-4 section-title text-primary">Cableado Vertical</h1>
-                    <p class="mb-4 text-white">El cableado estructurado es una infraestructura común de
-                        telecomunicaciones
-                        construida para conectar distintos dispositivos -trasportar señales desde dispositivos emisores
-                        a otros receptores- en redes locales. <br><br>O sea, es el conjunto de cables, conectores,
-                        canalizaciones y dispositivos que componen la infraestructura de telecomunicaciones interior de
-                        un edificio o recinto.
-                        <br><br> Consiste en cables de par trenzado protegidos (Shielded Twisted Pair,
-                        STP) o no protegidos (Unshielded Twisted Pair, UTP) en el interior de un edificio con el
-                        propósito de implantar una red de área local (Local Area Network o LAN).
+                    <p class="mb-4 text-white">
+                        Cableado vertical, troncal o backbone <br>
+                        <img class="img-fluid float-right mr-20 mb-3" src="img/Cableado Vertical.jpeg" alt="Image" style="width: 300px;">
+                        El propósito del cableado del backbone es proporcionar interconexiones entre cuartos de entrada
+                        de servicios de edificio, cuartos de equipo y cuartos de telecomunicaciones.
+                        <br>
+                        El cableado del backbone incluye la conexión vertical entre pisos en edificios de varios
+                        pisos.
+                        <br>
+                        El cableado del backbone incluye medios de transmisión (cable), puntos principales e
+                        intermedios de conexión cruzada y terminaciones mecánicas.
+                        <br><br>
+                        El cableado vertical realiza la interconexión entre los diferentes gabinetes de
+                        telecomunicaciones y entre estos y la sala de
+                        equipamiento. En este componente del sistema de cableado ya no resulta económico mantener la
+                        estructura general utilizada en el cableado horizontal, sino que es conveniente realizar
+                        instalaciones independientes para la telefonía y datos. Esto se ve reforzado por el hecho de
+                        que, si fuera necesario sustituir el backbone, ello se realiza con un coste relativamente bajo,
+                        y causando muy pocas molestias a los ocupantes del edificio.
+                        <br><br>
+                        El backbone telefónico se
+                        realiza habitualmente con cable telefónico multipar. Para definir el backbone de datos es
+                        necesario tener en cuenta cuál será la disposición física del equipamiento. Normalmente, el
+                        tendido físico del backbone se realiza en forma de estrella, es decir, se interconectan los
+                        gabinetes con uno que se define como centro de la estrella, en donde se ubica el equipamiento
+                        electrónico más complejo.
+                        <br><br>
+                        El backbone de datos se puede implementar con cables UTP o con fibra óptica. En el caso de
+                        decidir utilizar UTP, el mismo será de categoría 5 y se dispondrá un número de cables desde cada
+                        gabinete al gabinete seleccionado como centro de estrella.
+
                     </p>
                 </div>
             </div>
@@ -226,40 +252,54 @@
 
 
     <!-- Services Start -->
-    <div class="container-fluid py-5">
+    <div class="container-fluid py-5 bg-light">
         <div class="container py-5">
             <div class="row">
                 <div class="col-lg-6 pr-lg-5">
-                    <h6 class="text-primary font-weight-normal text-uppercase mb-3">Our Awesome Services</h6>
-                    <h1 class="mb-4 section-title">Awesome Interior Designing Services For Your Home</h1>
-                    <p>Invidunt lorem justo clita. Erat lorem labore ea, justo dolor lorem ipsum ut sed eos, ipsum et
-                        dolor kasd sit ea justo. Erat justo sed sed diam. Ea et erat ut sed diam sea ipsum</p>
-                    <a href="" class="btn btn-primary mt-3 py-2 px-4">View More</a>
+                    <h6 class="text-primary font-weight-normal text-uppercase mb-3">Herramientas</h6>
+                    <h1 class="mb-4 section-title">Herramientas</h1>
+                    <p>Estas herramientas se utilizan para la fabricación de diversos componentes de redes, en este caso
+                        cables de red, o en otras palabras, cables LAN.</p>
                 </div>
-                <div class="col-lg-6 p-0 pt-5 pt-lg-0">
-                    <div class="owl-carousel service-carousel position-relative">
-                        <div class="d-flex flex-column text-center bg-light mx-3 p-4">
-                            <h3 class="flaticon-bedroom display-3 font-weight-normal text-primary mb-3"></h3>
-                            <h5 class="mb-3">Bedroom Design</h5>
-                            <p class="m-0">Diam amet eos at no eos sit lorem, amet rebum ipsum clita stet, diam sea est
-                                diam eos</p>
+                <!--Sección de las herramientas-->
+                <div class="col-lg-6 p-0 pt-5 pt-lg-0 ">
+                    <div class="owl-carousel service-carousel position-relative bg-light">
+                        <div class="d-flex flex-column text-center mx-3 p-4 bg-secondary">
+                            <img src="img/ponchadora.webp" width="72px" style="border-radius: 15%; margin-bottom: 5px;" alt="">
+                            <h5 class="mb-3 text-primary">Ponchadora</h5>
+                            <p class="m-0 text-light">
+                                Se utiliza al momento de crear las conexiones de keystone, es necesario que cada cable
+                                individual del cable de red sea ponchado en su conexión correspondiente.
+
+                            </p>
                         </div>
-                        <div class="d-flex flex-column text-center bg-light mx-3 p-4">
-                            <h3 class="flaticon-kitchen display-3 font-weight-normal text-primary mb-3"></h3>
-                            <h5 class="mb-3">Kitchen Design</h5>
-                            <p class="m-0">Diam amet eos at no eos sit lorem, amet rebum ipsum clita stet, diam sea est
-                                diam eos</p>
+                        <div class="d-flex flex-column text-center bg-secondary mx-3 p-4">
+                            <img src="img/crimpadora.jpg" width="72px" style="border-radius: 15%; margin-bottom: 5px;" alt="">
+                            <h5 class="mb-3 text-primary">Crimpadora</h5>
+                            <p class="m-0 text-light">Sirve para empalmar o encajar cables de
+                                transferencia de datos en diversos tipos de terminales, como por ejemplo conectores
+                                ethernet, telefónicos o para antenas de tv.
+                            </p>
                         </div>
-                        <div class="d-flex flex-column text-center bg-light mx-3 p-4">
-                            <h3 class="flaticon-bathroom display-3 font-weight-normal text-primary mb-3"></h3>
-                            <h5 class="mb-3">Bathroom Design</h5>
-                            <p class="m-0">Diam amet eos at no eos sit lorem, amet rebum ipsum clita stet, diam sea est
-                                diam eos</p>
+                        <div class="d-flex flex-column text-center bg-secondary mx-3 p-4">
+                            <img src="img/desforradora.jpeg" width="72px" style="border-radius: 15%; margin-bottom: 5px;" alt="">
+                            <h5 class="mb-3 text-primary">Desforradora</h5>
+                            <p class="m-0 text-light"> Una desforradora de cables UTP (Unshielded Twisted Pair) es una herramienta
+                                utilizada para quitar o pelar la cubierta externa de los
+                                cables de par trenzado de una forma sencilla.</p>
+                        </div>
+                        <div class="d-flex flex-column text-center bg-secondary mx-3 p-4">
+                            <img src="img/tester.jpg" width="72px" style="border-radius: 15%; margin-bottom: 5px;" alt="">
+                            <h5 class="mb-3 text-primary">Tester</h5>
+                            <p class="m-0 text-light">Se utiliza para verificar que las conexiones de los cables se halla realizado
+                                de manera correcta y de esta forma asegurar el correcto funcionamiento de los cables y
+                                demás dispositivos.</p>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
+    </div>
     </div>
     <!-- Services End -->
 
